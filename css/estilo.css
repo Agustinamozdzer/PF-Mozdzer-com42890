@@ -4,40 +4,39 @@
     font-family: cursive;
 }
 /* index */
-.bodyindex{
-    background-color: #F2C078;
-}
 .headerindex{
-    background-color: #BC412B;
     width: 100%;
     height: 100%;
 }
-.lista{
-    display: inline;
-    width: 50%;
-    height: 50%;
-    margin-left: 65px;
-}
-.btn_in{
-    border: none;
+.navegacion{
     background-color: #BC412B;
-    text-align: right;
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
 }
-.registro{
-    display: inline;
-    width: 50%;
-    height: 50%;
-    margin-left: 1050px;
+.navegacion li{
+    list-style: none;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navegacion li a{
+    text-decoration: none;
+    color: black;
+}
+.logo-principal{
+    text-align: center;
+}
+.mainindex{
+    width: 100%;
+    height: 100%;
+    background-color: #FAF2A1;
 }
 /* pag futbol */
-.bodypag{
-    background-color: #F2C078;
-}
-.headerpag{
-    background-color: #BC412B;
-    width: 100%;
-    height: 100%;
-}
 /* pag macetas */
 /* pag pokemon */
 /* pag marvel */
