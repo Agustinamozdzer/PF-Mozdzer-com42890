@@ -48,8 +48,12 @@
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 70px;
-    font-family:sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size:x-large;
+}
+.contacto{
+    color: #BC412B;
+    text-decoration: none;
 }
 .mainindex{
     width: 100%;
