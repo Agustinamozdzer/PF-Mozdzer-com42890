@@ -4,30 +4,52 @@
     font-family: cursive;
 }
 /* index */
-/* mobile*/
-@media screen and (max-width: 576px) {
-    body {
-        font-size: 14px;
+@media screen and (min-width: 400px) {
+    .bodyindex{
+        width: fit-content;
+    }
+    .bodypages{
+        width: fit-content;
+        height: fit-content;
+    }
+    .subtitulo{
+        text-align: center;
+    }
+    .texto{
+        text-align: center;
+        margin-top: 500px;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+    .imgpages{
+        width: 50px;
+        height: 100px;
+    }
+    .div-cont{
+        text-align: center;
     }
 }
-/*tablet*/
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    body{
-        font-size: 16px;
-    }
-}
-/*desktop*/
-@media screen and (min-width: 1024) {
-    body{
-        font-size: 18px;
-    }
-}
-    .headerindex{
+@media screen and (min-width: 1200px){
+    .bodyindex{
+        background-color: #FAF2A1;
         width: 100%;
         height: 100%;
     }
-    .bodyindex{
-        background-color: #FAF2A1;
+    .flex-container{
+        flex-direction: row;
+    }
+}
+    .img {
+        display: block;
+        margin: auto;
+        margin-bottom: 100px;
+        width: 350px;
+        height: 400px;
+    }
+    .headerindex{
+        width: 100%;
+        height: 100%;
     }
     .dropdown{
         background-color: #BC412B;
@@ -60,36 +82,10 @@
         list-style: none;
         margin-right: 50px;
         margin-left: 50px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .navegacion li a{
-        text-decoration: none;
-        color: black;
-    }
-    .inicio{
-        border-style: solid;
-        border-color: #FAF2A1;
-        border-radius: 5px;
-        background-position: center;
-        text-align: center;
-    }
-    .navpag{
-        background-color: #BC412B;
-        align-items: center;
-        justify-content:space-between;
-        display: flex;
-        width: 100%;
-        height: 100%;
-        font-size: 25px;
-    }
-    .navpag li{
-        list-style: none;
-        margin-right: 50px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .navpag li a{
+    .navegacion li a{
         text-decoration: none;
         color: black;
     }
@@ -101,11 +97,6 @@
         text-align: center;
         padding-top: 30px;
         padding-bottom: 50px;
-    }
-    .img-container{
-        text-align: center;
-        padding-left: 530px;
-        padding-bottom: 110px;
     }
     .carousel-caption{
         text-align: center;
@@ -147,6 +138,43 @@
         padding-top: 20px;
     }
 /* pag futbol */
+.bodypages{
+    width: 100%;
+    height: 100%;
+    background-color: #FAF2A1;
+}
+.inicio{
+    font-style: oblique;
+    border-radius: 5px;
+    background-position: center;
+    text-align: center;
+}
+.t_futbol{
+    text-align: center;
+    padding-top: 10px;
+}
+.sub_futbol{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding-top: 70px;
+}
+.div-cont{
+    padding: 10px;
+}
+.imgpages{
+    width: 200px;
+    height: 300px;
+}
 /* pag macetas */
 /* pag pokemon */
 /* pag marvel */
