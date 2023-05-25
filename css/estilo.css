@@ -221,5 +221,19 @@
     font-size: 20px;
     color: white;
 }
-/* pag pokemon */
+/* pag Contacto */
+.cont-pri{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.h2-contac{
+    text-align: center;
+}
+.h3-contac{
+    text-align: center;
+}
+.text-contac{
+    text-align: center;
+    
+}
 /* pag marvel */
