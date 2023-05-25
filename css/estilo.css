@@ -234,6 +234,10 @@
 }
 .text-contac{
     text-align: center;
-    
+    padding-right: 25px;
+    padding-left: 25px;
 }
-/* pag marvel */
+/* pag Registro */
+.h5-regis{
+    text-align: center;
+}
