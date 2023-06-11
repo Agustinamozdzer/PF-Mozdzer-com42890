@@ -7,6 +7,7 @@
 @media screen and (min-width: 300px) {
     .bodyindex{
         width: fit-content;
+        background-color: #FAF2A1;
     }
     .bodypages{
         width: fit-content
@@ -240,4 +241,15 @@
 /* pag Registro */
 .h5-regis{
     text-align: center;
+}
+.h2-regis{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.registro{
+    margin-left: 30px;
+    margin-right: 30px;
 }
