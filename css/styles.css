@@ -1,3 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
 
+@media screen and (min-width: 300px) {
+  .bodyindex {
+    width: fit-content;
+    background-color: #FAF2A1;
+  }
+  .bodypages {
+    width: fit-content;
+  }
+  .subtitulo {
+    text-align: center;
+  }
+  .texto {
+    text-align: center;
+    margin-top: 500px;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+  .imgpages {
+    width: 50px;
+    height: 100px;
+  }
+  .div-cont {
+    text-align: center;
+  }
+  .inicio {
+    display: none;
+  }
+  .volver {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+  }
+  .cont-volver {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .bodyindex {
+    background-color: #FAF2A1;
+    width: 100%;
+    height: 100%;
+  }
+  .flex-container {
+    flex-direction: row;
+  }
+  .bodypages {
+    width: fit-content;
+    height: fit-content;
+  }
+}
+.img {
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  width: 350px;
+  height: 400px;
+}
+
+.headerindex {
+  width: 100%;
+  height: 100%;
+}
+
+.dropdown {
+  background-color: #BC412B;
+  font-size: 30px;
+}
+
+.dropdown-item {
+  background-color: #BC412B;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.btn {
+  font-size: 25px;
+  border-color: black;
+  border-style: solid;
+  background-color: #BC412B;
+}
+
+.navegacion {
+  background-color: #BC412B;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+}
+
+.navegacion li {
+  list-style: none;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navegacion li a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-principal {
+  text-align: center;
+}
+
+.promo {
+  color: black;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.carousel-caption {
+  text-align: center;
+}
+
+.carou-inicio {
+  text-align: center;
+  background-position: center;
+}
+
+.subtitulo {
+  text-align: justify;
+  padding-top: 70px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 70px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+}
+
+.contacto {
+  color: #BC412B;
+  text-decoration: none;
+}
+
+.mainindex {
+  width: 100%;
+  height: 100%;
+  background-color: #FAF2A1;
+}
+
+.redes {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 70px;
+}
+
+.footerindex {
+  background-color: #FAF2A1;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* pag futbol */
+.bodypages {
+  width: 100%;
+  height: 100%;
+  background-color: #FAF2A1;
+}
+
+.inicio {
+  font-style: oblique;
+  border-radius: 5px;
+  background-position: center;
+  text-align: center;
+}
+
+.t_futbol {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 40px;
+}
+
+.sub_futbol {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  padding-top: 70px;
+}
+
+.div-cont {
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+  background-color: beige;
+}
+
+.descrip-img {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.imgpages {
+  width: 200px;
+  height: 250px;
+}
+
+.volver {
+  width: 400px;
+  height: 350px;
+}
+
+/* pag macetas */
+.imgpagesMA {
+  width: 250px;
+  height: 250px;
+}
+
+.div-contMA {
+  border-style: solid;
+  border-color: beige;
+  padding: 20px;
+  background-color: rgb(63, 54, 54);
+}
+
+.descrip-imgMA {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+}
+
+/* pag Contacto */
+.cont-pri {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.h2-contac {
+  text-align: center;
+}
+
+.h3-contac {
+  text-align: center;
+}
+
+.text-contac {
+  text-align: center;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+/* pag Registro */
+.h5-regis {
+  text-align: center;
+}
+
+.h2-regis {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 70px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.registro {
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
 /*# sourceMappingURL=styles.css.map */
