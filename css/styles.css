@@ -11,6 +11,8 @@
     }
     .bodypages {
     width: fit-content;
+    height: fit-content;
+    background-color: #FAF2A1;
     }
     .subtitulo {
     text-align: center;
@@ -29,6 +31,9 @@
     .div-cont {
     text-align: center;
     }
+    .div-contMA {
+        text-align: center;
+        }
     .inicio {
     display: none;
     }
@@ -39,6 +44,10 @@
     }
     .cont-volver {
     text-align: center;
+    }
+    .flex-container {
+        padding-left: 70px;
+        padding-right: 70px;
     }
 }
 @media screen and (min-width: 1200px) {
@@ -51,8 +60,9 @@
     flex-direction: row;
     }
     .bodypages {
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
+    height: 100%;
+    background-color: #FAF2A1;
     }
 }
 .img {
@@ -174,12 +184,6 @@
 }
 
 /* pag futbol */
-.bodypages {
-    width: 100%;
-    height: 100%;
-    background-color: #FAF2A1;
-}
-
 .inicio {
     font-style: oblique;
     border-radius: 5px;
@@ -216,6 +220,7 @@
     border-color: black;
     padding: 20px;
     background-color: beige;
+    margin-bottom: 20px;
 }
 .div-cont:hover{
     transform: scale(1.2);
